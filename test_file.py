@@ -20,9 +20,6 @@ def linter(filename: str, linter: str = "mypy") -> list[ErrType]:
 
 def setmode():
     """
-    I don't know what the fuck this does but it does something to the terminal
-    device as to not fuck me over.
-
     References:
       https://www.man7.org/linux/man-pages/man3/termios.3.html
       https://man7.org/linux/man-pages/man1/stty.1.html
