@@ -177,7 +177,7 @@ class Buffer:
             self.cy += 1
             self.cx = 0
             return
-        self.buf[self.cy] = ln[: self.cx] + c + ln[self.cx :]
+        self.buf[self.cy] = ln[: self.cx] + c + ln[self.cx:]
         self.move_cursor_right()
 
     def delete(self):
